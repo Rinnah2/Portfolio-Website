@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>MyPortfolio</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 <div>
     <nav>
-        <div>
+        <div class="navBar">
         <h3>Rinnah Mills</h3>
-         <ul>
+         <ul class="navBarContent">
              <li><a href="">About</a></li>
              <li><a href="">Projects</a></li>
              <li><a href="">Contact</a></li>
@@ -17,31 +18,34 @@
         
         </div>
     </nav>
-    <div>
-        <span>Available for Work</span>
+    <div class="hero-section">
+        <span class="Availability">Available for Work</span>
         <h2>Hi, I'm Rinnah Mills</h2>
         <h5>I build clean, user-friendly websites and apps.Based in Accra, open to remote</h5>
     </div>
-    <div>
+    <div class="button-container">
         <button>View my work</button>
         <button>Download CV</button>
     </div>
     <div>
         <!-- The SVG code for the person silhouette -->
-        <div class="profile-placeholder">
-            <svg height="50" width="50" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-            </svg>
-            <h4>About Me</h4>
-            <span>Self-taught developer passionate about solving real problems with code. Currently building web projects in web development and learning every day</span>
+        <div class="about-section">
+            <div class="profile-placeholder">
+                <h3>RM</h3>
+            </div>
+            <div class="about-me">
+                <h4>About Me</h4>
+                <span>Self-taught developer passionate about solving real problems with code. Currently building web projects in web development and learning every day</span>
+            </div>
         </div>
-        <div>
-            <span>SKILLS</span>
-            <span class="skills">HTML</span>
-            <span class="skills">CSS</span>
-            <span class="skills">JavaScript</span>
-            <span class="skills">React</span>
-            <span class="skills">Git</span>
+
+        <div class="skills-section">
+            <h4>SKILLS</h4>
+            <button class="skills">HTML</button>
+            <button class="skills">CSS</button>
+            <button class="skills">JavaScript</button>
+            <button class="skills">React</button>
+            <button class="skills">Git</button>
         </div>
         <div class="PROJECTS"></div>
 

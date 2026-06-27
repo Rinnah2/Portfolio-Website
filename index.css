@@ -1,0 +1,157 @@
+body{
+    background-color: #333333;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 10px;
+}
+
+.navBarContent{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap:20px;
+    list-style-type: none;
+}
+
+nav h3{
+    color: white;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    border-bottom: 1px solid  #333;
+    padding-bottom: 5px;
+    border-bottom-color: white;
+}
+.navBar h3, .navBarContent {
+    margin: 0;
+    padding: 0;
+}
+
+.Availability{
+    margin-top: 50px;
+    font-size: 12px;
+    border-radius: 10px;
+    color:white;
+    background-color: #0f4077;
+    text-align: center;
+    justify-content: center;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section h2{
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: #efeaea;
+}
+.hero-section h5{
+    margin-top:0;
+    max-width: 500px;    /* Adjust this number to control how wide the text block is */
+    margin-left: auto;   /* Helps center the element */
+    margin-right: auto;  /* Helps center the element */
+    text-align: center;  /* Centers the text inside the box */
+    line-height: 1.5;
+    color: #efeaea;
+}
+
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border-bottom: 0.5px solid;
+    padding-bottom: 30px;
+    border-bottom-color: white;
+}
+
+.button-container button {
+    cursor: pointer;
+    padding: 10px;
+    width: 150px;
+    background-color: #333333;
+    border-radius: 10px;
+    color: white;
+    font-size:18px;
+    border: 1px solid #e0e0e0;
+}
+
+.button-container button:hover {
+    background-color: rgb(255 255 255 / 0.08);
+}
+
+
+.profile-placeholder h3{
+    color:cadetblue;
+    background-color: midnightblue;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+}
+.about-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 0.5px solid;
+    padding-bottom: 5px;
+    border-bottom-color: white;
+}
+.about-me {
+    display: flex;
+    flex-direction: column;
+    color:white;
+}
+.about-me h4{
+    margin:0;
+}
+
+.about-me span{
+    font-size: 12px;
+    line-height: 1.4;
+
+}
+
+.skills-section{
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+
+}
+
+.skills-section h4{
+    padding: 0;
+    margin: 15px;
+}
+.skills-section button{
+    margin-left: 20px;
+    background-color: #333333;
+    border-radius: 20px;
+    border: 1px solid #e0e0e0;
+}
+.skills{
+    padding: 5px 10px;
+    cursor: text;
+    color: white;
+
+}
+
